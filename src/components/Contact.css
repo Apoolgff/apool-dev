@@ -1,0 +1,85 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    padding: 40px 20px;
+    border-bottom: 4px solid #3d3d3d;
+    height: 100vh; 
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.contact-form {
+    width: 50%;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.contact-title {
+    color: #00ff00;
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00ff00;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: none; 
+}
+
+.submit-button {
+    background-color: #00ff00;
+    color: #000;
+    border: 2px solid #3d3d3d;
+    padding: 10px 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #00cc00;
+}
+
+.contact-image-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-image {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border: 4px solid #3d3d3d;
+}
